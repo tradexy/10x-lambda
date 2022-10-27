@@ -1,0 +1,7 @@
+# Creating a Sample Lambda function
+
+1. Create a Hello World Lambda Application in Pyhton
+2. Create a Dockerfile that will build our Lambda Application and execute it in local Docker environment.
+3. Create a sample shell script that can be used to trigger the Lambda function right in your terminal.
+4. Execute `sh ./docker-test.sh`
+5. Open new terminal and execute `curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'`
